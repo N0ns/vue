@@ -1,0 +1,30 @@
+.index-header {
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    width: 100%;
+    top: 14.3vw;
+    padding: 0 3.33333vw;
+}
+.index-header .nav-bar {
+    padding: 0vw 0 2vw;
+    overflow-x: auto;
+}
+.index-header .nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.index-header .nav-bar li {
+    font-size: 3.7037vw;
+    padding: 1vw 0;
+}
+.index-header .nav-bar li:first-child {
+    border-bottom: .35vw solid #0BBBEF;
+}
+.index-header .nav-bar li:first-child a {
+    color: #0BBBEF;
+}
+.index-header .nav-bar a {
+    color: #333;
+    white-space: nowrap;
+}
